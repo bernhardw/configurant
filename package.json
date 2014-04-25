@@ -1,0 +1,23 @@
+{
+  "name": "configurant",
+  "version": "0.0.0",
+  "description": "Easy configuration management.",
+  "private": true,
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bernhardw/configurant"
+  },
+  "author": "Bernhard Wanger <mail@bernhardwanger.com>",
+  "dependencies": {
+    "lodash": "*",
+    "yargs": "*"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "should": "*"
+  }
+}
