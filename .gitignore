@@ -1,0 +1,12 @@
+.idea/
+
+.DS_Store
+
+logs
+*.log
+
+lib-cov
+
+coverage
+
+node_modules
