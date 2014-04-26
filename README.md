@@ -1,3 +1,5 @@
+# IMPORTANT: This module is currently under development.
+
 # Configurant
 
 > Easy environment-specific configuration management.
