@@ -14,7 +14,7 @@
   "author": "Bernhard Wanger <mail@bernhardwanger.com>",
   "dependencies": {
     "lodash": "*",
-    "yargs": "*"
+    "minimist": "*"
   },
   "devDependencies": {
     "mocha": "*",

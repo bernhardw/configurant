@@ -2,9 +2,9 @@
 
 # Configurant
 
-> Easy environment-specific configuration management.
+> Environment-specific configuration management.
 
-With support for inheritance through files, environment variables and command-line arguments.
+With support for inheritance through files, environment variables, command-line arguments or custom sources.
 
 ## Usage
 
@@ -88,10 +88,13 @@ You can as well use the dot `.` to namespace.
     node app.js -db.host = "localhost"
 
 
-## Roadmap
+## TODO
 
 ### Milestone 0.1.0
 
-* Add `argv` source.
 * Add source options such as `env.only` (to limit to specific variables) or `env.separator` (to specify a custom namespace separator).
 * Support for custom sources. `configurant.addSource('name', function () { /*...*/ })`
+* Find a way to test argv.
+* Make sure argv (and env) numbers work correctly (and not as strings).
+* Support arrays and objects as JSON strings for argv and env.
+* Replace Lodash's merge() with something more performant. For example jQuery's deep extend is a lot faster.
