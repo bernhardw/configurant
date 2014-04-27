@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # IMPORTANT: This module is currently under development.
+=======
+# IMPORTANT: This module is under development.
+>>>>>>> FETCH_HEAD
 
 # Configurant
 
@@ -94,7 +98,10 @@ You can as well use the dot `.` to namespace.
 
 * Add source options such as `env.only` (to limit to specific variables) or `env.separator` (to specify a custom namespace separator).
 * Support for custom sources. `configurant.addSource('name', function () { /*...*/ })`
+<<<<<<< HEAD
 * Find a way to test argv.
 * Make sure argv (and env) numbers work correctly (and not as strings).
 * Support arrays and objects as JSON strings for argv and env.
 * Replace Lodash's merge() with something more performant. For example jQuery's deep extend is a lot faster.
+=======
+>>>>>>> FETCH_HEAD
